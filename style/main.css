@@ -2,3 +2,15 @@ h1 {
   font-family: helvetica;
   font-weight: 100;
 }
+
+body {
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
