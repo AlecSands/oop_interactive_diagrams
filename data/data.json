@@ -1,0 +1,21 @@
+{
+ "name": "flare",
+ "children": [
+    {
+      "name": "add",
+      "size": 200
+    },
+    {
+      "name": "subtract",
+      "size": 200
+    },
+    {
+      "name": "divide",
+      "size": 200
+    },
+    {
+      "name": "multiply",
+      "size": 200
+    }
+ ]
+ }

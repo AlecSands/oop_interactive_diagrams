@@ -31,7 +31,7 @@ window.onload = function () {
     .append("g")
       .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
 
-  d3.json("https://raw.githubusercontent.com/AlecSands/oop_interactive_diagrams/master/data/test.json", function(error, root) {
+  d3.json("https://raw.githubusercontent.com/AlecSands/oop_interactive_diagrams/master/data/data.json", function(error, root) {
     if (error) throw error;
 
     root = d3.hierarchy(root);
